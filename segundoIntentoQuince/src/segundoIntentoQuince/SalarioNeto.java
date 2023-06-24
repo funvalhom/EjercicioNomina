@@ -9,11 +9,8 @@ public class SalarioNeto {
 	public static void main(String[] args) {
 		
 		Empleado datosDeEmpleado = new Empleado();
-		
-		
-		
-		String datos = datosDeEmpleado.empleado();
-		String puestoEmpleado = datosDeEmpleado.ElPuesto();
+		datosDeEmpleado.empleado();
+		datosDeEmpleado.ElPuesto();
 		
 		SueldoBruto horas = new SueldoBruto();
 		
